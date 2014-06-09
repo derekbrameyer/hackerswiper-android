@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    style="@style/Match"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:oak="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scroll_view"
+    android:fillViewport="true"
+    android:scrollbars="none">
+
+    <oak.widget.TextViewWithFont
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/green"
+        android:textSize="14sp"
+        oak:oakFont="@string/default_font_monospace" />
+</ScrollView>

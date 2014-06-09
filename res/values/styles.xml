@@ -1,0 +1,25 @@
+<resources>
+    <style name="Match">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="Wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="MatchWidth" parent="Wrap">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="MatchHeight" parent="Wrap">
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="HackerSwiperActionBar" parent="Widget.Sherlock.ActionBar">
+        <item name="android:background">#00000000</item>
+        <item name="background">#00000000</item>
+        <item name="android:displayOptions">disableHome</item>
+        <item name="displayOptions">disableHome</item>
+    </style>
+    <style name="HackerSwiperOverflowButtonStyle" parent="Widget.Sherlock.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_ab_overflow</item>
+    </style>
+</resources>

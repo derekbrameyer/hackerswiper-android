@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hacker Swiper</string>
+
+    <string name="default_font_monospace" translateable="false">DroidSansMono.ttf</string>
+
+    <string name="get_hacker_swiper_pro">Get Hacker Swiper Pro</string>
+    <string name="about">About</string>
+    <string name="close">Close</string>
+    <string name="about_hacker_swiper">About Hacker Swiper</string>
+    <string name="about_hacker_swiper_text">Hacker Swiper is an open source Android app inspired by &lt;a href="http://www.hackertyper.net">www.hackertyper.net&lt;/a>
+        &lt;br />&lt;br />If you like it, check out &lt;a href="http://play.google.com/store/apps/details?id=com.doomonafireball.hackerswiperpro.android">Hacker Swiper Pro&lt;/a>, which includes:
+        &lt;br />&#8226; The official Hacker Swiper game!
+        &lt;br />&#8226; The official Hacker Swiper live wallpaper!
+        &lt;br />&#8226; The official Hacker Swiper soft keyboard!
+        &lt;br />&#8226; Multiple fonts
+        &lt;br />&#8226; Custom text and background colors
+        &lt;br />&#8226; Custom Text size and typing speed
+        &lt;br />&#8226; Custom command line prompt
+        &lt;br />&#8226; Sentence case options
+        &lt;br />&#8226; Haptic feedback
+        &lt;br />&#8226; Sound effects
+        &lt;br />&#8226; ACCESS GRANTED popup
+        &lt;br />&#8226; ACCESS DENIED popup&lt;br />&lt;br /></string>
+</resources>
