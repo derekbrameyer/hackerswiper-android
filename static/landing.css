@@ -1,0 +1,228 @@
+/**
+ * Copyright 2014 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+html, body {
+  margin: 0;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: #222;
+  min-width: 690px;
+  min-height: 640px;
+
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-align-items: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  body.withvignette {
+    background-image: radial-gradient(circle at 50% 50%, #222 60%, #000);
+  }
+
+#container {
+  position: relative;
+  margin: 70px;
+  width: 850px;
+  height: 700px;
+}
+
+#logo {
+  position: absolute;
+  left: 0;
+  top: 60px;
+  width: 250px;
+  height: 102px;
+  background-size: contain;
+  opacity: 0.7;
+  z-index: 100;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 72px;
+  color: #ff0;
+}
+
+#logoright {
+  position: absolute;
+  right: 0;
+  top: 60px;
+  width: 250px;
+  height: 102px;
+  background-size: contain;
+  opacity: 0.7;
+  z-index: 100;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 72px;
+  color: #ff0;
+  text-align: right;
+}
+
+#logorightsubtitle {
+  position: absolute;
+  right: 0;
+  top: 240px;
+  width: 250px;
+  height: 102px;
+  background-size: contain;
+  opacity: 0.7;
+  z-index: 100;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #eee;
+  text-align: right;
+}
+
+#text {
+  position: absolute;
+  left: 0;
+  top: 325px;
+  width: 240px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  color: #ccc;
+  z-index: 100;
+}
+
+#textright {
+  position: absolute;
+  right: 0;
+  top: 325px;
+  width: 240px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  color: #ccc;
+  z-index: 100;
+  text-align: right;
+}
+
+#playlink {
+  position: absolute;
+  left: 0;
+  bottom: 170px;
+  width: 113px;
+  height: 33px;
+  padding: 15px 20px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-origin: content-box;
+  background-color: #fff;
+  background-image: url(onplay.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 0%;
+  text-decoration: none;
+  box-shadow: 0 1px 0px rgba(0,0,0,0.25);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  z-index: 100;
+}
+
+  #playlink:hover {
+    background-color: #eee;
+    background-position: 50% 100%;
+  }
+
+  #playlink:active {
+    bottom: 99px;
+    box-shadow: 0 0 0;
+  }
+
+#playlinkright {
+  position: absolute;
+  right: 0;
+  bottom: 100px;
+  width: 113px;
+  height: 33px;
+  padding: 15px 20px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-origin: content-box;
+  background-color: #fff;
+  background-image: url(onplay.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 0%;
+  text-decoration: none;
+  box-shadow: 0 1px 0px rgba(0,0,0,0.25);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  z-index: 100;
+}
+
+  #playlinkright:hover {
+    background-color: #eee;
+    background-position: 50% 100%;
+  }
+
+  #playlinkright:active {
+    bottom: 99px;
+    box-shadow: 0 0 0;
+  }
+
+#githublink {
+  position: absolute;
+  left: 0;
+  bottom: 100px;
+  width: 113px;
+  height: 33px;
+  padding: 15px 20px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-origin: content-box;
+  background-color: #fff;
+  background-image: url(ongithub.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 0%;
+  text-decoration: none;
+  box-shadow: 0 1px 0px rgba(0,0,0,0.25);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  z-index: 100;
+}
+
+  #githublink:hover {
+    background-color: #eee;
+    background-position: 50% 100%;
+  }
+
+  #githublink:active {
+    bottom: 99px;
+    box-shadow: 0 0 0;
+  }
+
+#device-frame {
+  position: absolute;
+  left: 225px;
+  top: 0;
+  width: 400px;
+  height: 700px;
+  background-image: url(screen.png);
+  background-size: cover;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}
