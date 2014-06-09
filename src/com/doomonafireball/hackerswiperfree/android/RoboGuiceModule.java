@@ -1,4 +1,4 @@
-package com.doomonafireball.hackerswiper.android;
+package com.doomonafireball.hackerswiperfree.android;
 
 import com.google.inject.AbstractModule;
 

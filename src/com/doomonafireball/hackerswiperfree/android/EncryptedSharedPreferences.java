@@ -1,4 +1,4 @@
-package com.doomonafireball.hackerswiper.android;
+package com.doomonafireball.hackerswiperfree.android;
 
 import android.content.Context;
 import android.content.SharedPreferences;

@@ -1,10 +1,10 @@
-package com.doomonafireball.hackerswiper.android.activity;
+package com.doomonafireball.hackerswiperfree.android.activity;
 
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuItem;
 import com.actionbarsherlock.view.Window;
-import com.doomonafireball.hackerswiper.android.R;
-import com.doomonafireball.hackerswiper.android.util.Typer;
+import com.doomonafireball.hackerswiperfree.android.R;
+import com.doomonafireball.hackerswiperfree.android.util.Typer;
 import com.github.rtyley.android.sherlock.roboguice.activity.RoboSherlockFragmentActivity;
 import com.readystatesoftware.systembartint.SystemBarTintManager;
 

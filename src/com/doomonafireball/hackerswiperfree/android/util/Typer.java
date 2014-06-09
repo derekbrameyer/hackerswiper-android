@@ -1,6 +1,6 @@
-package com.doomonafireball.hackerswiper.android.util;
+package com.doomonafireball.hackerswiperfree.android.util;
 
-import com.doomonafireball.hackerswiper.android.R;
+import com.doomonafireball.hackerswiperfree.android.R;
 
 import android.content.Context;
 import android.content.res.Resources;
